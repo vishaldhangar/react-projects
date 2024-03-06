@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:wght@300;400&display=swap')
+
+
+*{
+  margin:0;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+}
+ :root{
+  --red:#d01c28;
+  --gray:#2e2e2e;
+ }
+
+nav{
+  display:flex;
+  justify-content:space-between;
+  max-height:1280px;
+  margin:0 auto;
+  height:72px;
+  align-items:center;
+   
+}
+
+nav ul{
+  display:flex;
+  list-style:none;
+  gap:30px;
+
+}
+
+button{
+    all:unset;
+    padding:6px 16px;
+    background:var(--red);
+    height:32px;
+    color:white;
+    font-weight:500;
+
+}
+
+.hero{
+  display:flex;
+  max-width:1280px;
+  align-items:center;
+  height:calc(100vh-72px);
+}
+
+.hero-content{
+  display:flex;
+  flex-direction:column;
+  gap:2px;
+}
+
+.hero h1{
+  font-weight:800;
+  font-size:108px;
+  line-height:102px;
+  margin-top:60px;
+
+}
+
+.hero p{
+  font-height:600;
+  color:var(--gray);
+  max-width:400px;
+  margin-top:25px;
+}
+
+.hero-button{
+  display:flex;
+  gap:40px;
+}
+
+.secondary-btn{
+  background:transparent;
+  color:var(--gray);
+  border:1px solid black;
+}
